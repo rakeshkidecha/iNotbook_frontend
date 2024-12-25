@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import Notes from './Notes'
 
 const Home = () => {
+
+
   return (
-    <div>
-        this is home page
-    </div>
+    <>
+        
+        <Notes />
+        
+    </>
   )
 }
 
